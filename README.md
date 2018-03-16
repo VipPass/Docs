@@ -286,9 +286,7 @@ ___
 ```json
 {
     "card_number": "1234567891234567",
-    "expiration_year": 2010,
-    "expiration_month": 3,
-    "cvc": "123"
+    "person_id": 12345678912
 }
 ```
 
@@ -297,9 +295,7 @@ ___
 | Campo | Descrição| Tipo |
 |:---------|:-------------|----------|
 | card_number | Número do cartão | string, somente números |
-| expiration_year | Ano de expiração do cartão | number |
-| expiration_month | Mês de expiração do cartão | number |
-| cvc | Código de verificação do cartão | string |
+| personId | Para usuário do Brasil, este campo representa o CPF | string, enviando somente os números |
 
 ### **Output parameters**
 
